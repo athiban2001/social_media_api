@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "port": 5432,
+    "host": "localhost",
+    "username": "postgres",
+    "password": "root",
+    "database": "social-media-api",
+    "synchronize": true,
+    "logging": false,
+    "entities": ["{src,dist}/**/*.entity{.ts,.js}"]
+}
